@@ -17,7 +17,7 @@ optional arguments:
                         GPU Index Number
 ```
 
-## Visualize
+## Visualized
 The `inference.py` returns the latent representation ($z$), and exports the `z.tsv`, `meta.tsv` (label information).
 ```sh
 usage: inference.py [-h] [--gpu-index GPU_INDEX]
