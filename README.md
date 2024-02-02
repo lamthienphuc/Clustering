@@ -17,30 +17,4 @@ Fuzzy logic is an extension of classical logic in which values can be either a 0
 The conventional hard clustering methods assign every point of the data set to exactly 1 cluster based on the cluster center it is closest to. Due to this the segmentation results are crisp, which means every pixel of the image is in 
 only one class. Fuzzy C-means clustering overcomes this limitation. It was developed by J.C. Dunn in 1973, and improved by J.C. Bezdek in 1981. It allows one piece of data to belong to two or more clusters and the point is in each cluster upto a certain degree (based on the membership function). For example, a data point which is closer to the center will have higher membership value for that cluster as compared to a cluster center which is further away from it.
 
-# Algorithm
-
-The algorithm consists of the following steps:
-
-![image](Images/fcm_algo.png)
-
-# Python Implementation
-
-The execution begins with importing the required libraries and setting the parameter values like number of iterations and number of clusters. 3 helper functions are present to carry out the steps of the algorithm. The first function initializes the membership matrix with random initial values. The second and the third functions are called in every iteration and they are used for calculating the cluster centers and updating the membership matrix from the cluster centers. Another function called FuzzyCMeansClustering is defined which calls the above function and runs them for the specified number of iterations. 
-
-# Results Obtained
-
-The accuracy values for the data are shown below.
-
-![img0](Images/fcm_r.png)
-
-The following are the plots of Data Clusters and Membership Values of the differnt data points.
-
-**Data Clusters:**
-
-![img1](Images/fcm.png)
-
-**Membership Values:**
-
-![img2](Images/fcm_membership.png)
-
 
