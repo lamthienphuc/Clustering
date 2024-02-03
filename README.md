@@ -1,4 +1,4 @@
-# Deep Embedding Clustering (DEC) in Tensorflow
+# Deep Embedded Clustering (DEC) in Tensorflow
 
 ## Installation
 ```sh
