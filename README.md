@@ -1,9 +1,13 @@
 # Deep Embedded Clustering (DEC) in Tensorflow
 
-## Installation
-```sh
->>> pip3 install -r requirements.txt
-```
+## Introduction
+Deep embedded clustering is a machine learning technique that combines the strengths of deep learning and clustering to automatically group data points based on their intrinsic similarities. Here's the gist:
+
+Deep learning extracts high-dimensional, meaningful representations (embeddings) from your data, capturing underlying patterns and relationships. Imagine it as finding a more informative way to describe each data point beyond its raw features.
+Clustering groups similar data points together based on these embeddings. Think of it as organizing your data points into meaningful categories based on their extracted features.
+
+![1-s2 0-S0167865521002816-gr2](https://github.com/lamthienphuc/Clustering/assets/130354234/54ad1123-cd4f-438d-84f5-5d37f6528846)
+
 
 ## Training
 ```sh
