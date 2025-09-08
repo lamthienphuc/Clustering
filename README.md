@@ -37,7 +37,7 @@ optional arguments:
   --gpu-index GPU_INDEX
                         GPU Index Number
 ```
-For visualization, we use t-SNE by importing `z.tsv`, `meta.tsv` into [Tensorboard][tensorboard-url].
+For visualization, I use t-SNE by importing `z.tsv`, `meta.tsv` into [Tensorboard][tensorboard-url].
 The visualization using MNIST shows as follow.
 
 <p align="center">
